@@ -27,9 +27,10 @@ minima:
 header_pages:
     about.html
 
+google_analytics:
+    UA-144030772-1
+
+
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
-
- google_analytics:
-     UA-144030772-1
