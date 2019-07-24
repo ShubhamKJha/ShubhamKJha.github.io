@@ -30,7 +30,6 @@ header_pages:
 google_analytics:
     UA-144030772-1
 
-
 plugins:
  - jekyll-feed
  - jekyll-seo-tag
