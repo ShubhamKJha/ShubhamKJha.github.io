@@ -30,6 +30,6 @@ It is finished and under review now.
 
 Also, with the end of GSoC 2019, final evaluations have started. I will be writing a final report to the whole project by the end of this week.
 
-So far it has been a great and enriching experience for me. It was my first attempt at GSoC and I am lucky to get such an exposure. I acknowledge that I started with an abstract idea of the project but I now understand both the need and the code of `New Assumptions` pretty well (thanks to [Aaron](https://github.com/asmeurer) who wrote the most of it). The system is still in it's early phases and needs a lot more work. I am happy to be a part of it and I will be available to work on it.
+So far it has been a great and enriching experience for me. It was my first attempt at GSoC and I am lucky to get such an exposure. I acknowledge that I started with an abstract idea of the project but I now understand both the need and the code of `New Assumptions` pretty well (thanks to [Aaron](https://github.com/asmeurer) who wrote the most of it). The system is still in its early phases and needs a lot more work. I am happy to be a part of it and I will be available to work on it.
 
 This is the last weekly report but I will still be contributing to SymPy and open source in general. I will try to write more of such experiences through this portal. Till then, Good bye and thank you!
