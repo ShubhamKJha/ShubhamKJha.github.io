@@ -1,34 +1,26 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<!--
+  The Footer
+  v2.0
+  https://github.com/cotes2020/jekyll-theme-chirpy
+  © 2017-2019 Cotes Chung
+  MIT License
+-->
 
-  <div class="wrapper">
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col one-half">
-      <h2 class="footer-heading">{{ site.title | escape }}</h2>
-        <ul class="contact-list">
-          <li class="p-name">
-            {%- if site.author -%}
-              {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
-            {%- endif -%}
-            </li>
-            {%- if site.email -%}
-            <li><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-            {%- endif -%}
-        </ul>
-      </div>
-
-      <div class="footer-col one-half">
-        <p>{{ site.description | escape | markdownify }}</p>
-      </div>
-
-      <div class="social-links">
-        {%- include social.html -%}
-      </div>
+<footer class="d-flex w-100 justify-content-center">
+  <div class="d-flex justify-content-between  align-items-center">
+    <div class="copyright">
+      {% assign first = site.first_run | plus: 0 %}
+      {% assign last = 'now' | date: "%Y" | plus: 0 %}
+      <p class="mb-0">
+        © {% if last > first %}{{ first }}-{% endif %}{{-last-}}
+        <a href="{{ site.social.links[0] }}" class="ml-1">{{ site.social.name }}</a>.
+        <br>Powered by <a href="https://jekyllrb.com" target="_blank">Jekyll</a> & <a href="https://github.com/cotes2020/jekyll-theme-chirpy/">Chirpy</a>, hosted on <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+      </p>
     </div>
-
-  </div>
-
+    <div class="license">
+      <p class="mb-0">
+        The blog posts on this site are licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+      </p>
+    </div>
+  </div> <!-- div.d-flex -->
 </footer>

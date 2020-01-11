@@ -1,24 +1,28 @@
 ---
-layout: default
+# The 404 page
+# v2.0
+# https://github.com/cotes2020/jekyll-theme-chirpy
+# © 2017-2019 Cotes Chung
+# MIT License
+layout: page
+permalink: /404.html
+
+redirect_from:  # part of site.sitemap_exclude
+  - /norobots/
+  - /assets/
+  - /tabs/
+  - /categories/
+  - /tags/
+  - /posts/
+
+dynamic_title: true
 ---
-
-<style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
-
-<div class="container">
-  <h1>404</h1>
-
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<div class="text-center">
+  <img src="https://img.icons8.com/dotty/80/000000/broken-robot.png">
+  <br />
+  <p style="font-size: 2em; font-weight: bold;">404: PAGE NOT FOUND</kbd>
+</div>
+<div class="lead text-center text-muted">
+  <p>Sorry, we might have misplaced that URL or it's pointing to something that doesn't exist. </p>
+  <p><a href="{{ site.baseurl }}/">Head back Home</a> to try finding it again, or search for it on the <a href="{{ site.baseurl }}/tabs/archives">Archives page</a>.</p>
 </div>
