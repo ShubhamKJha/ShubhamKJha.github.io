@@ -5,7 +5,7 @@ comments: true
 tags: [gsoc, sympy]
 categories: [open-source]
 seo:
-  date_modified: 2020-01-11 18:06:59 +0530
+  date_modified: 2020-01-11 23:25:19 +0530
 ---
 <a href="https://summerofcode.withgoogle.com/">
   <img src="/assets/img/gsoc.jpg" style="width:30%;height:30%;float:left;" />
