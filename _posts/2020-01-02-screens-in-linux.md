@@ -4,6 +4,8 @@ title: screen command in Linux
 comments: true
 tags: [linux]
 categories: [dev experiences]
+seo:
+  date_modified: 2020-01-15 20:14:15 +0530
 ---
 It happens to computer enthusiasts that they encounter certain things during working on something else. I happen to work on many different things in the last few days and did encounter a great deal of hidden treasures. I hope I could have found them earlier. Like any treasure hunter I would like to show off my findings. So, carry along.
 
